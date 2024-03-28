@@ -18,8 +18,13 @@
        </div>
     </main>
     <footer>
+		<p>&copy; <span id="copyrightyear"></span> Brennan Walsh Productions</p>
+	</footer>
 
-    </footer>
+	<script>
+        const d = new Date();
+        document.getElementById('copyrightyear').innerHTML = d.getFullYear();
+    </script>
 </body>
 </html>
 <script src="js/scripts.js"></script>
